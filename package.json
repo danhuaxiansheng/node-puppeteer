@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node src/example.js",
+    "watch": "node --inspect=3333 src/example.js",
+    "build": "pkg -t win src/example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^18.2.1"
+  }
+}
